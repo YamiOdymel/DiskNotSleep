@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 339
+  ClientWidth = 306
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ComboBox1: TComboBox
+    Position.X = 16.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = #21855#29992
+  end
+  object Button2: TButton
+    Position.X = 136.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #26368#23567#21270
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Text = #30913#30879#20301#32622#65306
+    TabOrder = 7
+  end
+  object ProgressBar1: TProgressBar
+    Orientation = Horizontal
+    Position.X = 16.000000000000000000
+    Position.Y = 248.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    Text = #24050#29992#31354#38291#65306
+    TabOrder = 6
+  end
+  object Label3: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 224.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = #36317#38626#19979#19968#27425#23531#20837#38450#24608#36895#26283#23384#27284#26696#65306
+    TabOrder = 5
+  end
+  object ProgressBar2: TProgressBar
+    Orientation = Horizontal
+    Position.X = 16.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object GroupBox1: TGroupBox
+    Position.X = 16.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    Text = #35498#26126
+    TabOrder = 10
+  end
+  object Label4: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    Text = #36889#20491#31243#24335#33021#22816#30456#38548#19968#27573#26178#38291#20839#22312#25351#23450#30340#30913#30879#20013#23531#20837#19968#20491#38750#24120#23567#30340#27284#26696#65292#29992#20197#38450#27490#26576#20491#30913#30879#25110#26159#22806#25509#35037#32622#36914#20837#20241#30496#29376#24907#12290
+    TabOrder = 4
+  end
+end
