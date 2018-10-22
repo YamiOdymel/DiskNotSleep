@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.vue": "vue",
-        "*.litcoffee": "coffeescript",
-        "sstream": "cpp"
-    }
-}
