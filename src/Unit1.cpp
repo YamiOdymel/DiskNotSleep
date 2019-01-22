@@ -1,4 +1,4 @@
-//---------------------------------------------------------------------------
+﻿//---------------------------------------------------------------------------
 
 #include <vcl.h>
 #include <vector>
@@ -148,6 +148,7 @@ bool __fastcall TForm1::WriteBuffer() {
 	fileStream.open(this->GetPath().c_str(), ios::out);
 	// 如果無法開啟則回傳 `false`。
 	if(!fileStream) {
+		fileStream.close();
 		return false;
 	}
 	// 將目前的 Unix 時間戳寫入檔案內，不寫入相同內容避免檔案被快取。
